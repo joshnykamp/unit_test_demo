@@ -9,8 +9,7 @@ defmodule UserTest do
   end
 
   @doc """
-  You can write empty tests that will be skipped over but will help if we are using TDD
-  the test will return not yet implemented
+  You can write empty tests that will get a tag of not yet implemented, but they will fail.
   """
   test "get user address"
 
