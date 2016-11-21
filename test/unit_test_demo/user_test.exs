@@ -4,8 +4,8 @@ defmodule UserTest do
   doctest UnitTestDemo.User
 
   test "Get users first name" do
-    user = %{name: "Josh Nykamp"}
-    assert User.first_name(user) == "Josh"
+    user = %{name: "Walter Sobchak"}
+    assert User.first_name(user) == "Walter"
   end
 
   @doc """
